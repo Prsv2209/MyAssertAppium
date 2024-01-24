@@ -7,11 +7,13 @@
 # BlueJ files
 *.ctxt
 
+# .ideia files
+.idea
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
-.idea
 *.jar
 *.war
 *.nar
