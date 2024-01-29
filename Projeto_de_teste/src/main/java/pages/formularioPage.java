@@ -1,11 +1,10 @@
 package pages;
 
 import core.BasePage;
-import core.DriverFactory;
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
-public class FormularioPage extends BasePage {
+public class formularioPage extends BasePage {
 
     public void fillAndValidateTheName (String nome) {
         //Write the name

@@ -2,7 +2,7 @@ package pages;
 
 import core.BasePage;
 
-public class MenuPage extends BasePage {
+public class menuPage extends BasePage {
 
     public void acessarFormulario() { clickToText("Formulário");}
     public void acessarSplash() { clickToText("Splash");}

@@ -3,7 +3,7 @@ package pages;
 import core.BasePage;
 import org.openqa.selenium.By;
 
-public class AlertasPage extends BasePage {
+public class alertasPage extends BasePage {
 
     public void clicarAlertaConfirm() {
         clickToText("ALERTA CONFIRM");

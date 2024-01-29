@@ -1,15 +1,15 @@
 package test;
 
-import core.BaseTest;
+import core.baseTest;
 import org.junit.Assert;
 import org.junit.Test;
-import pages.MenuPage;
-import pages.SplashPage;
+import pages.menuPage;
+import pages.splashPage;
 
-public class SplashTeste extends BaseTest {
+public class SplashTeste extends baseTest {
 
-    private MenuPage menu = new MenuPage();
-    private SplashPage splash = new SplashPage();
+    private menuPage menu = new menuPage();
+    private splashPage splash = new splashPage();
 
     @Test
     public void deveAguardarSlashSumir () {

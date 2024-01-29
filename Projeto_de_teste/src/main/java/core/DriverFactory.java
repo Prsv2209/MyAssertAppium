@@ -23,7 +23,7 @@ public class DriverFactory {
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("deviceName", "emulator-5554");
         desiredCapabilities.setCapability("automationName", "uiautomator2");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:/Users/prsv/automation/AutomacaoComAppium/Projeto_de_teste/src/main/resources/apk/CTAppium_2_0.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:/Users/prsv/automation/MyAssertAppium/Projeto_de_teste/src/main/resources/apk/CTAppium_2_0.apk");
 
         try {
             driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities);

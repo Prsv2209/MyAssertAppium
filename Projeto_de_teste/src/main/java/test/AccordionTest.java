@@ -1,14 +1,13 @@
 package test;
 
-import core.BaseTest;
+import core.baseTest;
 import org.junit.Test;
-import pages.AbasPage;
-import pages.AccordionPage;
-import pages.MenuPage;
+import pages.accordionPage;
+import pages.menuPage;
 
-public class AccordionTest extends BaseTest {
-    private MenuPage menu = new MenuPage();
-    private AccordionPage accordion = new AccordionPage();
+public class AccordionTest extends baseTest {
+    private menuPage menu = new menuPage();
+    private accordionPage accordion = new accordionPage();
 
     @Test
     public void deveVisualizarTodosOsAccordions() {

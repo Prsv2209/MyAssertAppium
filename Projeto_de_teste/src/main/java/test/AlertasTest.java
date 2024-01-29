@@ -1,14 +1,15 @@
 package test;
 
-import core.BaseTest;
+import core.baseTest;
+import pages.alertasPage;
+import pages.menuPage;
 import org.junit.Before;
 import org.junit.Test;
-import pages.AlertasPage;
-import pages.MenuPage;
 
-public class AlertasTest extends BaseTest {
-    private MenuPage menu = new MenuPage();
-    private AlertasPage alertas = new AlertasPage();
+
+public class AlertasTest extends baseTest {
+    private menuPage menu = new menuPage();
+    private alertasPage alertas = new alertasPage();
 
 
     @Before public void acessarAlertas(){

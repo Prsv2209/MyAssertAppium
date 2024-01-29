@@ -3,7 +3,7 @@ package pages;
 import core.BasePage;
 import org.openqa.selenium.By;
 
-public class AccordionPage extends BasePage {
+public class accordionPage extends BasePage {
 
     public void cliqueEvalidacaoOpcao1 () {
         clickToText("Opção 1");

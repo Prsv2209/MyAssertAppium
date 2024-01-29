@@ -1,14 +1,13 @@
 package test;
 
-import core.BaseTest;
+import core.baseTest;
 import org.junit.Test;
-import pages.AbasPage;
-import pages.AlertasPage;
-import pages.MenuPage;
+import pages.abasPage;
+import pages.menuPage;
 
-public class AbasTest extends BaseTest {
-    private MenuPage menu = new MenuPage();
-    private AbasPage aba = new AbasPage();
+public class AbasTest extends baseTest {
+    private menuPage menu = new menuPage();
+    private abasPage aba = new abasPage();
 
     @Test
     public void deveVisualizarAbas() {

@@ -1,19 +1,13 @@
 package test;
 
-import core.BaseTest;
-import core.DriverFactory;
+import core.baseTest;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.*;
-import java.util.concurrent.TimeUnit;
 
-public class FormularioTest extends BaseTest {
-    private MenuPage menu = new MenuPage();
-    private FormularioPage formulario = new FormularioPage();
+public class FormularioTest extends baseTest {
+    private menuPage menu = new menuPage();
+    private formularioPage formulario = new formularioPage();
 
     @Before
     public void inicializarAppium() {
